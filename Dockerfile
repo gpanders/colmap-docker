@@ -46,4 +46,4 @@ WORKDIR /root
 # Delete source files
 RUN rm -r /src
 
-CMD /bin/bash
+ENTRYPOINT /bin/bash
