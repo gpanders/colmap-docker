@@ -1,6 +1,6 @@
 # Dockerized COLMAP 
 
-Dockerfile to create a Docker container with the [COLMAP](https://colmap.github.io) executables.
+Dockerfile to create a Docker container with the [COLMAP](https://github.com/colmap/colmap) executables.
 
 The container is hosted on [Docker Hub](https://hub.docker.com/r/ganders/colmap/). It is built from a CUDA image, and therefore requires both the [NVIDIA Docker](https://github.com/NVIDIA/nvidia-docker) plugin and a [CUDA supported graphics card](http://www.geforce.com/hardware/technology/cuda/supported-gpus). To use it, simply execute
 
